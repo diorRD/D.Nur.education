@@ -5,6 +5,9 @@
 body {
 	background: #f1fbff;
 }
+.logo{
+	width: 80px;
+}
 .section-padding {
 	padding: 100px 0;
 }
@@ -91,9 +94,6 @@ body {
 	font-size: 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.carousel-caption {
-		bottom: 370px;
-	}
 	.carousel-caption p {
 		width: 100%;
 	}
@@ -105,11 +105,12 @@ body {
 	}
 }
 @media only screen and (max-width: 767px) {
+
 	.navbar-nav {
 		text-align: center;
 	}
-	.carousel-caption {
-		bottom: 125px;
+	.carousel-caption{
+		text-align: center;
 	}
 	.carousel-caption h5 {
 		font-size: 17px;
@@ -120,7 +121,7 @@ body {
 	}
 	.carousel-caption p {
 		width: 100%;
-		line-height: 1.6;
+		line-height: 2.3;
 		font-size: 12px;
 	}
 	.about-text {
